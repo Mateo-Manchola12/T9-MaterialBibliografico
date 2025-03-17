@@ -26,7 +26,7 @@ public class Book extends Material implements IRenew {
 
     @Override
     public String toString() {
-        return String.format("Book:%n %s%n\tGenero: %s", super.toString(), this.genre);
+        return String.format("Libro:%n %s%n\tGenero: %s", super.toString(), this.genre);
     }
 
     @Override
