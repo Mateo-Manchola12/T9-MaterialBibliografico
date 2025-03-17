@@ -25,4 +25,20 @@ public class Menu {
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }
+
+    public static Integer showCreateMaterialMenu() {
+        String[] options = {
+                "Registrar Libro",
+                "Registrar Revista" };
+
+        System.out.println("Registrar Material");
+
+        for (int i = 0; i < options.length; i++) {
+            System.out.printf("\t%d - %s%n", i + 1, options[i]);
+        }
+
+        System.out.printf("\t%d - Volver%n", options.length + 1);
+
+        return options.length + 1;
+    }
 }

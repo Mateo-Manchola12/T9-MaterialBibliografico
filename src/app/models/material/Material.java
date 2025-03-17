@@ -50,10 +50,10 @@ public abstract class Material {
     @Override
     public String toString() {
         return String.format("""
-                \tTitulo %s
-                \tAutor %s
-                \tPublicación %d
-                \tEstado %s
+                \tTitulo: %s
+                \tAutor: %s
+                \tPublicación: %d
+                \tEstado: %s
                 """,
                 this.title,
                 this.author,

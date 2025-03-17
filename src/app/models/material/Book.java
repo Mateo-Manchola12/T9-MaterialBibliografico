@@ -26,11 +26,12 @@ public class Book extends Material implements IRenew {
 
     @Override
     public String toString() {
-        return String.format("Libro:%n %s%n\tGenero: %s", super.toString(), this.genre);
+        return String.format("Libro:%n %s\tGenero: %s", super.toString(), this.genre);
     }
 
     @Override
     public boolean renew() {
+        System.out.println("Préstamo con éxito Renovado");
         return lend;
     }
 }
