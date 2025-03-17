@@ -28,4 +28,9 @@ public class Book extends Material implements IRenew {
     public String toString() {
         return String.format("Book:%n %s%n\tGenero: %s", super.toString(), this.genre);
     }
+
+    @Override
+    public boolean renew() {
+        return lend;
+    }
 }
