@@ -1,10 +1,10 @@
 package app.models.material;
 
 public abstract class Material {
-    private String title;
-    private String author;
-    private int published;
-    private boolean lend;
+    protected String title;
+    protected String author;
+    protected int published;
+    protected boolean lend;
 
     public Material(String title, String author, int published) {
         this.title = title;
