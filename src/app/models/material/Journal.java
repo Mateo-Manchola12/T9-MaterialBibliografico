@@ -25,7 +25,7 @@ public class Journal extends Material {
 
     @Override
     public String toString() {
-        return String.format("Revista:%n %s%n\tGenero: %s", super.toString(), this.issue);
+        return String.format("Revista:%n %s\tGenero: %s", super.toString(), this.issue);
     }
 
 }

@@ -1,7 +1,10 @@
 package app;
 
+import app.controllers.MenuController;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MenuController menu = new MenuController();
+        menu.start();
     }
 }
