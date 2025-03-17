@@ -36,10 +36,9 @@ public class Library {
         if (materials.size() == 0)
             return null;
         return materials.stream()
-                .filter(material -> material.getTitle()
-                        .equals(title))
+                .filter(material -> material.getTitle().equals(title))
                 .findFirst()
-                .get();
+                .orElse(null);
     }
 
     public boolean orderMaterial() {
