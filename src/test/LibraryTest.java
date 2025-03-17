@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import app.controllers.Library;
 import app.models.material.Material;
 import app.models.material.Book;
-import app.models.material.Journal;
 
 public class LibraryTest {
 
